@@ -1,0 +1,66 @@
+.color-primary {
+    background-color: #ff8500;
+    color: #fff;
+}
+
+.color-text {
+    color: #fff
+}
+
+.btn-sombra {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-sombra:hover {
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.paddin-main {
+    padding: 200px;
+}
+
+.fondo-imagen {
+    background-image: url("./images/ELEMENTO 2.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.color-span {
+    color: #ff8500;
+    font-size: 2.4rem;
+}
+
+.color-footer {
+    background-color: #343c4a;
+    color: #fff;
+}
+
+.center-wpp {
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+/* Animación de scroll */
+
+.animate {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+section, article {
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.is-invalid {
+    border-color: red;
+}
+
+.text-danger {
+    font-size: 0.875rem;
+}
